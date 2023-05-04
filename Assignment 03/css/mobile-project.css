@@ -1,0 +1,54 @@
+@media (max-width: 575px) {
+    .img-content {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 991px){
+    .img-content {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .content {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+
+    .title-content {
+        font-size: 17px;
+    }
+
+    .box-scope .content {
+        display: flex;
+        gap: 20px;
+    }
+
+    .box-scope .title-content {
+        font-size: 25px;
+    }
+
+    .goals-scope,
+    .team-primary {
+        display: grid;
+        grid-template-rows: 464px 395px;
+    }
+
+    .content-items {
+        padding-left: 17px;
+    }
+
+    .number-title {
+        width: 45px;
+        height: 45px;
+    }
+
+    .number {
+        font-size: 25px;
+    }
+}

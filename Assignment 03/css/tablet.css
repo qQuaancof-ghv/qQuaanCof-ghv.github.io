@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+    #nav-bar {
+        text-align: center;
+    }
+
+    #nav-bar .container-box a {
+        padding: 30px;
+        border-left: 2px solid whitesmoke;
+    }
+
+    #nav-bar .container-box a:last-child {
+        border-right: 2px solid whitesmoke;
+    }
+
+    .container-target {
+        padding-top: 30px;
+    }
+
+    #target {
+        padding: 0 30px;
+    }
+
+    #personal-info {
+        padding: 30px 20px;
+    }
+
+    .title-items {
+        padding-top: 15px;
+    }
+
+    .award-bottom {
+        padding-top: 25px;
+        border-top: 1px solid #d6c08d;
+    }
+
+    .award-top .award-items:nth-child(2) {
+        border-left: 1px solid #d6c08d;
+        margin-bottom: 30px;
+    }
+
+    #award img {
+        height: 190px;
+    }
+
+    .time-content .icon-content {
+        display: inline;
+    }
+
+    .text-logo {
+        color: rgb(94, 94, 91);
+    }
+
+    .footer-items li span {
+        display: inline !important;
+        padding-left: 8px;
+    }
+}

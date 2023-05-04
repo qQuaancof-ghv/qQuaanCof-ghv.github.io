@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+.bg-grey {
+    background-color: rgba(240, 240, 240, 0.849);
+}
+
+.title-box {
+    color: blue;
+    font-weight: 700;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(165, 202, 184);
+}
+
+.title-content {
+    font-weight: 700;
+}
+
+.content {
+    padding: 0 10px;
+}
+
+.box-goals .content,
+.box-timeline .content {
+    border-bottom: 1px solid rgb(165, 202, 184);
+}
+
+.box-timeline .content {
+    margin-bottom: 15px;
+}
+
+
+.number-title {
+    padding: 15px 0;
+    background-color: rgb(218, 162, 218);
+    text-align: center;
+    line-height: 0.5;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(165, 202, 184);
+    border-radius: 100%;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}

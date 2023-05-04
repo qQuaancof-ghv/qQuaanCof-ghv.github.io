@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Poppins' sans-serif;
+}
+
+/* Banner */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.active {
+    transform: translateX(100%);
+}
+
+.clone-menu {
+    box-shadow: 1.2rem 1rem 3rem rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s linear;
+    left: -65%;
+}
+
+.clone-menu-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(235 230 230 / 60%);
+    z-index: 15;
+}

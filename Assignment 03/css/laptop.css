@@ -1,0 +1,79 @@
+@media (min-width: 992px) { 
+   #nav-bar .container-box {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+   }
+
+   #nav-bar a {
+    font-size: 19px;
+   }
+
+   #nav-bar a:nth-child(3) {
+    padding: 0 120px;
+    position: relative;
+   }
+
+   .avatar img {
+    width: 160px;
+    height: 180px;
+    border-radius: 100% ;
+    position: absolute;
+    top: -60px;
+    left: 43px;
+   }
+
+   #target .container-target {
+    padding-top: 60px;
+   }
+
+   #target .container-target p {
+      font-size: 20px;
+   }
+
+   .info {
+      font-size: 18px;
+   }
+
+   .personal-info-icon i {
+      font-size: 18px;
+   }
+
+   #personal-info {
+    padding-top: 60px;
+   }
+
+   .award-items {
+      display: flex;
+   }
+
+   #award img {
+      width: 180px;
+      height: 147px;
+   }
+
+   .award-top {
+      width: 100%;
+   }
+
+   .content-items {
+      padding-left: 30px;
+   }
+
+   .title-items {
+      padding: 0;
+   }
+
+   .content-items p {
+      margin: 0;
+      padding-bottom: 8px;
+   }
+
+}
+
+@media (min-width: 1200px) {
+   #award img {
+      width: 250px;
+      height: 147px;
+   }
+}
