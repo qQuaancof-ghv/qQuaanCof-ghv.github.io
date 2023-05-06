@@ -83,6 +83,7 @@ h1 {
 .btn {
     border: none;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .btn:hover {
