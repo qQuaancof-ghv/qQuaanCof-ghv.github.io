@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 50px 400px;
+}
+
+.healthbar {
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+}
+
+.controls,
+.log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 33px;
+    margin: 0;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: #1B9CFC;
+    background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+    color: #ff4d4d;
+    background-color: #ffc0c1;
+}
+
+button {
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px #2d3436;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-game {
+    background-color: #aaffb0;
+}
+
+#attack {
+    background-color: #f9ca24;
+}
+
+#special-attack {
+    background-color: #ff4757;
+}
+
+#heal {
+    background-color: #2ed573;
+}
+
+#give-up {
+    background-color: #ff9ff3;
+}
